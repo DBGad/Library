@@ -1,0 +1,99 @@
+h2 {
+    text-align: center;
+    color: #000;
+}
+
+.form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+select,
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.searchbutton {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article{
+    padding: 20px; 
+    background: linear-gradient(144.39deg, #f4f4f4 40%, #fff 95%);; 
+    border: 1px solid rgb(221, 221, 221); 
+    width: calc((100% - 320px) / 3); 
+    box-sizing: border-box; 
+    border-radius: .5rem; 
+    text-align: center; 
+    display: inline-block; 
+    margin-left: 80px; 
+    margin-bottom: 20px;
+}
+
+h6{
+    margin-top: 5px;
+}
+
+.author, .category, .descreption, .is-available{
+    opacity: 0.7;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.author::first-letter, .category::first-letter, .descreption::first-letter
+,.title::first-letter{
+    text-transform: capitalize;
+}
+
+.descreption{
+    height: 50px;
+    overflow: hidden;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+}
+
+button:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 0px white;
+}
+
+.nav-search{
+    color: cornflowerblue;
+}
+
+
